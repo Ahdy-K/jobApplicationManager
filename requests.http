@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/v1/jobs/
+content-type: application/json
+
+{
+"jobTitle":"FullStack engineer",
+"jobDescription":"Junior software engineer with little experience in java and springboot"
+}
+### GET job by id
+GET http://localhost:8080/api/v1/jobs/0
